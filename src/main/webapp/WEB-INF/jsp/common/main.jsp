@@ -11,7 +11,7 @@
 <body>
 <c:forEach items="${memberList}" var="param" varStatus="param">
 	<tr>
-		12345
+		123456
 	
 		<td>${memberList.Name}</td>
 	</tr>
