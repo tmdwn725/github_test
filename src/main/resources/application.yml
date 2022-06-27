@@ -1,0 +1,16 @@
+server:
+ port: 8280	
+spring:
+ datasource:
+  driver-class-name: org.mariadb.jdbc.Driver
+  url: jdbc:mariadb://localhost:3306/semi
+  username: semi
+  password: semi
+ jpa:
+  show-sql: true
+  hibernate:
+   ddl-auto: none
+ mvc:
+  view:
+   prefix: /WEB-INF/jsp/
+   suffix: .jsp
