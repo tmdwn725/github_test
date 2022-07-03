@@ -9,12 +9,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<c:forEach items="${memberList}" var="param" varStatus="param">
+<c:forEach items="${memberList}" var="MemberDTO" varStatus="param">
 	<tr>
-		<td>1${memberList.Name}</td>
+		<td>${MemberDTO.id}</td>
 	</tr>
 </c:forEach>
-${pa}
 </body>
 </html>
 
