@@ -6,12 +6,9 @@
    
          <!-- Begin Header -->
          <div id="header">
-		 /module/top.jsp<br/>
 		     상단 메뉴	<br/><br/>
 <a href="<%= request.getContextPath() %>/user/user_insert_form.jsp">01회원가입</a>
 <a href="<%= request.getContextPath() %>/user/user_list.jsp">02회원리스트</a>
-<a href="#">03상품등록</a>
-<a href="#">04상품리스트</a><br/>
 
 <form action="<%=request.getContextPath()%>/login/login_pro.jsp" method="post">
 아이디 : <input type = "text" name = "id">

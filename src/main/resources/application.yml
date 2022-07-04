@@ -12,7 +12,8 @@ spring:
    ddl-auto: none
  mvc:
   view:
-   prefix: /WEB-INF/jsp/
+   prefix: /WEB-INF/
    suffix: .jsp
+  static-path-pattern: /static/**
 logging:
   config: classpath:log4j2.xml

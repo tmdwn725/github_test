@@ -5,9 +5,8 @@
 		 
 		 <!-- Begin Footer -->
 		 <div id="footer">
-		      /module/hadan.jsp <br/>
 			   하단 메뉴	<br/>	
-			  한국스마트정보교육원 063-717-1008 ksmart.or.kr
+			  세미 프로젝트 010-0000-0000 semi.go.kr
 			    
 	     </div>
 		 <!-- End Footer -->

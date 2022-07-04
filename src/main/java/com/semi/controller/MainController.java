@@ -29,7 +29,7 @@ public class MainController {
 		List<MemberDTO> memberList = memberService.findMembers();
 		model.addAttribute("memberList",memberList);
 		System.out.println(memberList.size());
-		return "main/main";
+		return "main";
 	}
 	
 	@GetMapping("/name")
