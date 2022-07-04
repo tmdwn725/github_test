@@ -15,5 +15,9 @@ spring:
    prefix: /WEB-INF/
    suffix: .jsp
   static-path-pattern: /static/**
+ web:  
+  resources:
+   static-location:classpath: /static/
+   add-mappings: true
 logging:
   config: classpath:log4j2.xml
