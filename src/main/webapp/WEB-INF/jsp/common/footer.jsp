@@ -1,15 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-		 <!-- End Right Column -->
-		 
-		 <!-- Begin Footer -->
-		 <div id="footer">
-			   하단 메뉴	<br/>	
-			  세미 프로젝트 010-0000-0000 semi.go.kr
-			    
-	     </div>
-		 <!-- End Footer -->
-		 
-   </div>
-   <!-- End Wrapper -->
+<footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2022</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
